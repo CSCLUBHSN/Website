@@ -1,0 +1,191 @@
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Svelte demo app" />
+	<link rel="icon" href="/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Sam Poder</title>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Sam Poder" />
+	<meta property="og:title" content="Sam Poder" />
+	<meta name="twitter:title" content="Sam Poder" />
+	<meta
+		name="description"
+		content="I'm experimenting, making things for people to enjoy and having fun!"
+	/>
+	<meta
+		property="og:description"
+		content="I'm experimenting, making things for people to enjoy and having fun!"
+	/>
+	<meta
+		name="twitter:description"
+		content="I'm experimenting, making things for people to enjoy and having fun!"
+	/>
+	<meta property="og:image" content="https://user-images.githubusercontent.com/39828164/189525330-086aadbe-956b-4d56-a039-176b5dc6efb1.jpg" />
+	<meta name="twitter:image" content="https://user-images.githubusercontent.com/39828164/189525330-086aadbe-956b-4d56-a039-176b5dc6efb1.jpg" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
+</head>
+
+<body>
+	<section>
+		<div class="photo-and-name">
+			<img src="/pfp.jpg" alt="Me (Sam Poder)" />
+			<div>
+				<h1>Sam Poder</h1>
+			</div>
+		</div>
+		<p>
+			<a href="https://github.com/sampoder" target="_blank">GitHub</a> ~
+			<a href="https://twitter.com/sam_poder" target="_blank">Twitter</a> ~
+			<a href="https://instagram.com/sam_poder/" target="_blank">Instagram</a>
+		</p>
+		<p>
+			👋 G'day! My name is Sam. I'm an Australian who grew up in Singapore; nowadays, I'm living in the United States and learning all about computers at Berkeley.
+		</p>
+		<p>
+			I enjoy making things (mostly involving code), running 
+			<a href="https://www.youtube.com/watch?v=PnK4gzO6S3Q" target="_blank">ha</a><a href="https://lioncityhacks.com/" target="_blank">ck</a><a href="https://photos.app.goo.gl/pd5MprLVn7ZDixv17" target="_blank">at</a><a href="https://youtu.be/KLx4NZZPzMc" target="_blank">ho</a><a href="https://youtu.be/O1s5HqSqKi0" target="_blank">ns</a> 
+			and learning about random pieces of trivia. 
+		</p>
+		<p>
+			Here are a couple of projects I'm proud of:
+		</p>
+		
+	</section>
+	<div class="grid-2">
+		<iframe 
+			height="300"
+			src="https://www.youtube.com/embed/O1s5HqSqKi0" 
+			title="YouTube video player" 
+			frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+			allowfullscreen
+			style="border-radius: 8px; width: 100%;"
+		></iframe>
+		<iframe 
+			height="300"
+			src="https://www.youtube.com/embed/KLx4NZZPzMc" 
+			title="YouTube video player" 
+			frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+			allowfullscreen
+			style="border-radius: 8px; width: 100%;"
+		></iframe>
+		<iframe 
+			height="300"
+			src="https://www.youtube.com/embed/PnK4gzO6S3Q" 
+			title="YouTube video player" 
+			frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+			allowfullscreen
+			style="border-radius: 8px; width: 100%;"
+		></iframe>
+		<iframe 
+			height="300"
+			src="https://www.youtube.com/embed/afwQkr5UHpE" 
+			title="YouTube video player" 
+			frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+			allowfullscreen
+			style="border-radius: 8px; width: 100%;"
+		></iframe>
+		<iframe 
+			height="300"
+			src="https://www.youtube.com/embed/61iu_7Zdmus" 
+			title="YouTube video player" 
+			frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+			allowfullscreen
+			style="border-radius: 8px; width: 100%;"
+		></iframe>
+		<iframe 
+			height="300"
+			src="https://www.youtube.com/embed/rKdtwhdaGHI" 
+			title="YouTube video player" 
+			frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+			allowfullscreen
+			style="border-radius: 8px; width: 100%;"
+		></iframe>
+	</div>
+
+	<style>
+		section {
+			font-family: 'Roboto Mono', Menlo, monospace;
+			text-align: center;
+			width: 100%;
+			max-width: 600px;
+			margin: auto;
+			margin-top: 72px;
+		}
+
+		.photo-and-name {
+			align-items: center;
+			margin-bottom: 16px;
+		}
+
+		.grid-2 {
+		  display: grid;
+		  grid-template-columns: 1fr 1fr;
+		  gap: 16px;
+		  margin-bottom: 16px;
+		  max-width: 800px;
+		  margin: auto;
+		}
+
+		h1 {
+			margin-block-start: 0em;
+			margin-block-end: 0em;
+		}
+
+		p {
+			margin-block-start: 0em;
+			margin-block-end: 0em;
+			margin-bottom: 16px;
+		}
+
+		.photo-and-name > img {
+			height: 120px;
+			width: 120px;
+			object-fit: cover;
+			margin-bottom: 16px;
+			border-radius: 8px;
+			border: 1px solid lightgrey;
+		}
+
+		h1 {
+			font-size: 36px;
+		}
+
+		.post-image {
+			max-width: 100%;
+			max-height: 300px;
+			background: #eeeeee;
+			border-radius: 4px;
+			object-fit: cover;
+		}
+
+		.attachments {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 8px;
+		}
+
+		hr {
+			border-color: lightgrey;
+			border-style: solid;
+			border-width: 0.1px;
+		}
+
+		.load-more {
+			text-decoration: underline;
+			cursor: pointer;
+		}
+
+		a {
+			color: black !important;
+		}
+	</style>
+</body>
